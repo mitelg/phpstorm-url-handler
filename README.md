@@ -5,6 +5,9 @@ number and an associated desktop file that conforms to the Desktop Entry
 Specification for use in Gnome and KDE desktop environments.
 
 ## Installation
+Download the zip file, unzip it and cd into this directory.
+Change the path in `phpstorm-url-handler` to your PhpStorm installation.
+Go to your terminal and execute following commands (sudo maybe needed): 
 
     cp phpstorm-url-handler /usr/bin/phpstorm-url-handler
     desktop-file-install phpstorm-url-handler.desktop
